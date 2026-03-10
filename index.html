@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brinquedos Feliz | Aluguel de Brinquedos para Festa Infantil</title>
+<meta name="description" content="Aluguel de brinquedos para festa infantil. Pula pula, cama elástica, piscina de bolinhas, castelo inflável e tobogã inflável. Reserve pelo WhatsApp.">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🎉 Brinquedos Feliz</h1>
+<p>Aluguel de brinquedos para festa infantil</p>
+</header>
+
+<section class="catalogo">
+<h2>Escolha seu brinquedo</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1562087926-662f8573327b">
+<h3>Pula Pula Inflável</h3>
+<p>R$150</p>
+<button onclick="selecionar('Pula Pula Inflável',150)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1561501878-aabd62634533">
+<h3>Cama Elástica</h3>
+<p>R$180</p>
+<button onclick="selecionar('Cama Elástica',180)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8">
+<h3>Piscina de Bolinhas</h3>
+<p>R$120</p>
+<button onclick="selecionar('Piscina de Bolinhas',120)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1608889175119-7c3f1a1c0d3b">
+<h3>Castelo Inflável</h3>
+<p>R$220</p>
+<button onclick="selecionar('Castelo Inflável',220)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592659762303-90081d34b277">
+<h3>Escorregador Inflável</h3>
+<p>R$200</p>
+<button onclick="selecionar('Escorregador Inflável',200)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565372913779-95f0c63f47fa">
+<h3>Tobogã Inflável</h3>
+<p>R$250</p>
+<button onclick="selecionar('Tobogã Inflável',250)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601568870191-8d6b5e7d55ce">
+<h3>Futebol de Sabão</h3>
+<p>R$300</p>
+<button onclick="selecionar('Futebol de Sabão',300)">Alugar</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1607453998774-d533f65dac99">
+<h3>Guerra de Cotonete</h3>
+<p>R$280</p>
+<button onclick="selecionar('Guerra de Cotonete',280)">Alugar</button>
+</div>
+
+</div>
+</section>
+
+<section class="reserva">
+<h2>Finalizar Reserva</h2>
+<p id="brinquedo"></p>
+
+<label>Data de retirada</label>
+<input type="date" id="retirada">
+
+<label>Data de devolução</label>
+<input type="date" id="devolucao">
+
+<button onclick="enviar()">Reservar pelo WhatsApp</button>
+</section>
+
+<section class="regras">
+<h2>Regras do aluguel</h2>
+<ul>
+<li>Reserva com pagamento de 50%</li>
+<li>50% restante na devolução</li>
+<li>Prazo máximo de 2 dias</li>
+<li>Após isso será cobrado 10% ao dia</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 Brinquedos Feliz</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
